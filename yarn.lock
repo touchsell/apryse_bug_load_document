@@ -945,10 +945,10 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.5.tgz#4fc56c15c580b9adb7dc3c333a134e540b44bfb1"
   integrity sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==
 
-"@pdftron/webviewer@^11.9.0":
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/@pdftron/webviewer/-/webviewer-11.9.0.tgz#4bf6637303e20785c35ff0c4db38bbe1951ed9a1"
-  integrity sha512-cW1XFG2hLQ7hUFtI+8HuyrmHc2+fN6t/9UQuaJQ/6Ct09qXDS7ljpvRYNJ1YyYAeyqgOo8Q1ZzZ/1zdv+4l25g==
+"@pdftron/webviewer@^11.11.1":
+  version "11.12.0"
+  resolved "https://registry.yarnpkg.com/@pdftron/webviewer/-/webviewer-11.12.0.tgz#f41919820da45b05381f6ad5fcaf3b3a9d1967dc"
+  integrity sha512-9GqjbLQTIR5jgFVKX99dcRHtfqFk0ctej3vy4eD9u3Xx5wAhrnZJjYCD4H7l+IWdr8CIqMSkl0K2RNWeiq86rw==
 
 "@types/body-parser@*":
   version "1.19.6"

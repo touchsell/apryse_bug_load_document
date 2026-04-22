@@ -1,6 +1,8 @@
 import WebViewer from "@pdftron/webviewer"
-import pdfPathFinder from "../assets/PathFinder.pdf"
-import pdfPDFinteractif from "../assets/PDF interactif.pdf"
+import pdfDocument3 from "../assets/PDF interactif.pdf"
+import pdfDocument4 from "../assets/PathFinder.pdf"
+import pdfDocument2 from "../assets/Sommaire - 2 Formations.pdf"
+import pdfDocument1 from "../assets/Sommaire - 4 Formations.pdf"
 
 const element = document.getElementById('pdftron-webviewer')
 const options = {
@@ -38,7 +40,13 @@ const buttonClose = document.getElementById('button-close')
 buttonClose.addEventListener('click', () => instance.Core.documentViewer.closeDocument())
 
 const button1 = document.getElementById('button-load-document-1')
-button1.addEventListener('click', () => loadDocument(pdfPDFinteractif))
+button1.addEventListener('click', () => loadDocument(pdfDocument1))
 
 const button2 = document.getElementById('button-load-document-2')
-button2.addEventListener('click', () => loadDocument(pdfPathFinder))
+button2.addEventListener('click', () => loadDocument(pdfDocument2))
+
+const button3 = document.getElementById('button-load-document-3')
+button3.addEventListener('click', () => loadDocument(pdfDocument3))
+
+const button4 = document.getElementById('button-load-document-4')
+button4.addEventListener('click', () => loadDocument(pdfDocument4))
